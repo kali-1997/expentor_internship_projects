@@ -2,7 +2,7 @@
 import pandas as pd
 
 def extract_data(path):
-    df = pd.read_csv(r"Desktop/files")
+    df = pd.read_csv(r"data/sales.csv")
     print("Data extraCted successfully")
     return df
 
