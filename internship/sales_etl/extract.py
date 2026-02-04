@@ -7,5 +7,5 @@ def extract_data(path):
     return df
 
 if __name__ == "__main__":
-    df = extract_data("data/sales_data.csv")
+    df = extract_data("data/sales_data.csv)
     print(df.head())
